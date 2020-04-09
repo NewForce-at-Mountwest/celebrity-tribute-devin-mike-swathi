@@ -25,3 +25,7 @@ header{
 .card-text{
     font-size: 0.95em;
 }
+
+.card {
+    margin-left: 6em
+}

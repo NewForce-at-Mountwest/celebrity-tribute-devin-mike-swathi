@@ -1,0 +1,27 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: auto;
+    height: 35vh;
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 66);
+}
+
+.mr-3{
+    height:auto;
+    width: 18vw;
+    border: 1px solid  rgb(2, 2, 66)
+}
+
+.card-text{
+    font-size: 0.95em;
+}

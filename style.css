@@ -113,10 +113,11 @@ img{
     margin: auto;
 }
 .news-container h2, .news-container h3{
-    line-height: 10px;
+    /* line-height: 10px; */
 }
 .articleThree{
     display: flex;
+    /* flex-wrap: wrap; */
     /* flex-wrap: wrap; */
     /* border: 1px solid red; */
 }

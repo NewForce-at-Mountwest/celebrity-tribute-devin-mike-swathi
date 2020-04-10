@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Danny DeVito</title>
+    <title>Summary</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type = "text/css" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css">
+    </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Danny DeVito  |</a>
@@ -27,13 +27,48 @@
           </ul>
         </div>
     </nav>
-
-    <header class = "main-page" style= "height: 91vh">
-        <img class = "gif" src = "http://gifimgs.com/res/0420/5e8f60633a13e327062156.gif" alt = "danny in style"></img>
-    </header>
-
+    <!--Header-->
+    <header>        
+      <div class= "title flexy">
+          <button class="btn btn-outline-light"><h1>Summary</h1></button>
+      </div>
+  </header>
+    <!-- Created div for flex container -->
+    <div class="container">
+        <div class="box-one">
+          <!-- Portrait / image of Danny DeVito -->
+          <img id="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Danny_DeVito_cropped_and_edited_for_brightness.jpg/800px-Danny_DeVito_cropped_and_edited_for_brightness.jpg">
+          <h3 id="img-title">Danny DeVito</h3>
+          <!-- Country of residence -->
+          <h2 id="residence">United States</h2>
+        </div>
+        <!-- List of known aliases. -->
+        <div class="box-two">
+          <div class="two-one">
+            <h2>Some Of Danny's Roles:</h2>
+            <ul id="roles">
+                <li>Frank Reynolds - Always Sunny In Philadelphia</li>
+                <li>Edward "Eddie" Gilpin - Jumanji: The Next Level</li>
+                <li>Martin Weir - Get Shorty</li>
+                <li>Max Medici - Dumbo</li>
+                <li>Oswald Cobblepot / The Penguin</li>
+              </ul>
+          </div>
+          <div class="two-two">
+            <!-- H2 and UL used for the collaborators section -->
+            <h2>Some Of The Stars That Danny Has Worked With:</h2>
+            <ul id="collaborators">
+              <li>Dwayne Johnson</li>
+              <li>Kevin Hart</li>
+              <li>Danny Glover</li>
+              <li>Colin Farrell</li>
+            </ul>
+          </div>
+        </div>
+    
+    </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+</body>
 </html>

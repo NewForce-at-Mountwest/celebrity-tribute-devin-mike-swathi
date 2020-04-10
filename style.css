@@ -15,6 +15,7 @@ img{
 }
 .container{
     border: 2px solid black;
+    padding: 2em;
     display: flex;
     margin-left: 2vh;
     margin-right: 2vh;
@@ -169,7 +170,7 @@ header{
 }
 
 .card {
-    /* margin-left: 6em; */
+    margin-left: 6em;
 }
 
 html { 
@@ -396,10 +397,28 @@ html {
     padding: 1em 5em;
     flex-wrap: wrap;
 }
-.danny{
-    width: 70%;
-}
+
 .flexy{
     display: flex;
     justify-content: center;
+}
+
+.media-logo{
+    width: 3em;
+    padding: 0.5em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(2, 2, 66);
+}
+
+.media-links{
+    display: flex;
+    align-items: center;
+    padding: 0.2em;
+    text-decoration: none;
+    color: white;
 }

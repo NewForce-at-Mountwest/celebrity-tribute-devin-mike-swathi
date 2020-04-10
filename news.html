@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Feed</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Danny DeVito  |</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active"></li>
+              <a class="nav-link" href="execSummary.html">Executive Summary <span class="sr-only">(current)</span></a>
+            <li class="nav-item active"></li>
+              <a class="nav-link" href="career.html">Career <span class="sr-only">(current)</span></a>
+            <li class="nav-item active"></li>
+              <a class="nav-link" href="personal.html">Personal <span class="sr-only">(current)</span></a>
+            <li class="nav-item active"></li>
+                <a class="nav-link" href="news.html">News Feed <span class="sr-only">(current)</span></a>
+          </ul>
+        </div>
+    </nav>
+    <!--Header-->
+    <header>        
+        <div class= "title flexy">
+            <button class="btn btn-outline-light"><h1>Danny News</h1></button>
+        </div>
+    </header>
+    <!-- We want to see a list of recent news that might be connected, in any way, to the artist and/or their estate. It should include the following components.
+    Recent events that might be connected to artist.
+    Make sure you include the likelihood rating for each event, on a scale of 1-10.
+    Each event should include: related image, date, location, type of event, collaborators, and where the event occured or to purchase tickets. -->
+    <div class="news-container">
+        <!-- Created container for first article with divs for the boxes inside the container -->
+        <div class="mainArticle">
+            <div class="articleImg">
+                <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/03/25/15/danny-devito.jpg?w645"
+                    alt="Danny DeVito">
+            </div>
+            <div class="title">
+                <h2>Danny DeVito and Robert De Niro urge young people to stay at home</h2>
+            </div>
+            <div class="event">
+                <h3>23 March 2020</h3>
+                <h3>Beverly Hills, California</h3>
+                <p>"This pandemic,” he continues, “young people can get it and they can transmit it to old people.”
+                    The dirty truth about washing your hands. What is the difference between Covid-19 and the common
+                    cold and flu? Can face masks really protect you against coronavirus or flu? The UK government’s four
+                    stages of fighting coronavirus explained. What are symptoms of coronavirus – and where has it
+                    spread? "The next thing you know,” DeVito said, before mimicking the sound of a broken neck, “I’m
+                    outta there!” “Please, do us a favour, all of us, and stay home and not spread this virus around.”
+                    Robert De Niro was also called upon by Cuomo to record his own message, in which he references a
+                    famous line from his hit comedy Meet the Parents. “We need to stop the spread of the virus,” DeNiro
+                    says, adding: “I’m watching you.”</p>
+            </div>
+        </div>
+        <div class="articletwo">
+            <div class="articleImgTwo">
+                <img src="https://parade.com/wp-content/uploads/2016/11/danny-devito-getty.jpg" alt="Danny DeVito">
+            </div>
+            <div class="art-two">
+                <div class="titleTwo">
+                    <h2>Petition to get Danny DeVito to play Wolverine passes 20k signatures</h2>
+                </div>
+                <div class="eventTwo">
+                    <h3>23 March 2019</h3>
+                    <h3>Beverly Hills, California</h3>
+                    <p>"A petition created in support of Danny DeVito becoming the next Wolverine has surpassed 20,000
+                        signatures. Although the character has been played so far on the big screen by Hugh Jackman, the
+                        actor officially retired the character in 2017’s Logan, and rumours about his replacement have
+                        been persistent ever since. In a petition on change.org, user Ring Arius wrote: “The only man
+                        able to take the throne after Hugh Jackman. We believe that if Wolverine is to make an
+                        appearance in the Marvel Cinematic Universe that the only man able to pull it off is Danny
+                        DeVito.”</p>
+                </div>
+            </div>
+        </div>
+        <div class="articleThree">
+            <div class="articleImgThree">
+                <img src="https://www.closerweekly.com/wp-content/uploads/2019/08/Danny-DeVito-e1564672814400.jpg?fit=4433%2C2493" alt="Danny DeVito">
+            </div>
+            <div class="art-three">
+                <div class="titleThree">
+                    <h2>Danny DeVito has no fear, and that's how he got this far</h2>
+                </div>
+                <div class="eventThree">
+                    <h3>23 March 2019</h3>
+                    <h3>Beverly Hills, California</h3>
+                    <p>He’s trying to impress the beautiful woman having dinner at the next table at Craig’s, the Hollywood clubhouse. And it’s working. She’s cracking up.
+
+                        But a mere utensil is not enough to hold Jennifer Lopez’s attention for long. Soon, J-Lo swings back around to return her focus to A-Rod. Their engagement is on deck, after all.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>

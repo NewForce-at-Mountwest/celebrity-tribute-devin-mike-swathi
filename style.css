@@ -1,3 +1,148 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width: 25vw;
+    height: auto;
+}
+#img-title{
+    font-size: 30px;
+}
+#residence{
+    font-size: 18px;
+    text-align: left;
+    /* font-weight: normal; */
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin: auto;
+    flex-direction: column;
+}
+.box-one{
+    flex: .5;
+    margin: auto;
+    padding: 5em;
+    flex-wrap: wrap;
+    text-align: left;
+    /* border: 2px solid black; */
+    flex-direction: column;
+}
+.box-two{
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    padding: 5em;
+
+}
+.two-one{
+    flex:1;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    /* border: 2px solid black; */
+}
+.two-two{
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    /* border: 2px solid black; */
+}
+.box-two li{
+    list-style-type: circle;
+    text-align: left;
+}
+.two-one h2{
+    text-decoration: underline;
+}
+.two-two h2{
+    text-decoration: underline;
+}
+.news-container{
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+}
+.mainArticle{
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+}
+.articleImg{
+    flex: 1;
+    /* border: 1px solid black; */
+    align-self: center;
+    padding: 2px;    
+}
+.title{
+    flex: 1;
+    /* border: 1px solid black; */
+    align-self: center;
+}
+.event{
+    flex: 1;
+    text-align: center;
+    align-self: center;
+    /* border: 1px solid black; */
+}
+.articletwo{
+    display: flex;
+}
+.articleImgTwo{
+    flex: 1;
+    padding: 5px;
+    align-self: center;
+}
+.art-two{
+    display: flex;
+    flex-direction: column;
+}
+.titleTwo{
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+}
+.eventTwo{
+    flex: 1;
+    padding: 10px;
+    margin: auto;
+}
+.articleThree{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+    /* border: 1px solid red; */
+}
+.articleImgThree{
+    flex: 1;
+    /* border: 1px solid blue; */
+    order: 2;
+    align-self: center;
+}
+.art-three{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    /* flex: 1; */
+    /* border: 1px solid black; */
+    order: 1;
+}
+.titleThree{
+    flex: 1;
+    /* margin: auto; */
+    text-align: left;
+}
+.eventThree{
+    flex: 1;
+    margin: auto;
+    /* border: 1px solid purple; */
+}
 header{
     width: auto;
     height: 35vh;
@@ -24,7 +169,7 @@ header{
 }
 
 .card {
-    margin-left: 6em;
+    /* margin-left: 6em; */
 }
 
 html { 
@@ -250,4 +395,11 @@ html {
     border-radius: 3em;
     padding: 1em 5em;
     flex-wrap: wrap;
+}
+.danny{
+    width: 70%;
+}
+.flexy{
+    display: flex;
+    justify-content: center;
 }

@@ -427,3 +427,10 @@ footer{
     text-decoration: none;
     color: white;
 }
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
